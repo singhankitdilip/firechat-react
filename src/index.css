@@ -1,0 +1,18 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*,
+*::before,
+*::after {
+  @apply box-border p-0 m-0;
+}
+
+
+body {
+  @apply bg-cover bg-center h-screen w-screen flex justify-center items-center text-gray-300;
+  background-image: url('/bg.jpg'); /* Adjusted path */
+  
+}
