@@ -75,7 +75,7 @@ const Chat = () => {
   const handleSend = async () => {
     if (text === "") return;
 
-    let imgUrl = null;
+    let imgUrl = null
 
     try {
       if (image.file) {
